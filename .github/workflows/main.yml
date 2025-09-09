@@ -2,7 +2,7 @@
 
 name: 'GitHub Workflow Demo for Unni'
 
-on: 
+on:
   push:
     branches: [ "main" ]
   pull_request:
@@ -14,6 +14,6 @@ on:
 jobs:
   sayHello:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
     - name: runscript-to-say-hello
       run:  echo "Howdy GitHub Actions"
